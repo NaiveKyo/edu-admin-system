@@ -1,0 +1,54 @@
+*,
+body,
+div,
+form,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+button,
+input {
+  padding: 0;
+  margin: 0;
+}
+
+#app {
+  /*width: 1535px;*/
+  width: 100%;
+}
+
+.html {
+  font-size: 12px;
+}
+
+.clearfix:after {
+  content: " ";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+.clearfix {
+  zoom: 1;
+}
+
+/* 版心 */
+.main {
+  width: 1495px;
+  margin: 0 auto;
+}
+
+ul, li {
+  list-style: none;
+}
+
+.app-container {
+  padding: 20px;
+}

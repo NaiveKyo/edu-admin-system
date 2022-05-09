@@ -1,0 +1,88 @@
+.header {
+  height: 83px;
+  text-align: center;
+}
+
+/*.header:after {*/
+/*  display: block;*/
+/*  content: '';*/
+/*  border: 1px solid grey;*/
+/*  transform: scaleY(0.1);*/
+/*}*/
+
+.main > ul {
+  padding-top: 22px;
+  display: inline-block;
+}
+
+.main > ul > li {
+  cursor: pointer;
+  font-size: 1.4rem;
+  color: gray;
+  display: inline-block;
+  padding: 18px 17px 13px 17px;
+}
+
+.main > div:first-child {
+  display: inline-block;
+  float: left;
+  margin: 24px 0 12px 20px;
+}
+
+.user-avatar {
+  float: right;
+  width: 200px;
+  height: 80px;
+  padding-top: 10px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.user-avatar > div:first-child {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+
+.user-avatar > div:first-child > img {
+  width: 30px;
+  height: 30px;
+}
+
+.user-avatar > div:last-child {
+  display: flex;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  color: #fc9a5a;
+  font-weight: bold;
+}
+
+.router-link-active-class {
+  color: blue !important;
+  font-weight: bold;
+  background-color: #ddd9d940;
+  border-radius: 16px 16px 0 0;
+}
+
+.router-link-active {
+  color: blue !important;
+  font-weight: bold;
+  background-color: #ddd9d940;
+  border-radius: 16px 16px 0 0;
+}
+
+.router-link-exact-active {
+  color: blue !important;
+  font-weight: bold;
+  background-color: #ddd9d940;
+  border-radius: 16px 16px 0 0;
+}
+
+.el-divider--horizontal {
+  margin: 0;
+}
